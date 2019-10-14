@@ -37,12 +37,10 @@ def find_the_cheese(snacks)
   i = 0
   while(i < snacks.length)
     if(snacks[i] == "cheddar" || snacks[i] == "gouda" || snacks[i] == "camembert")
-      return snacks[i].to_S
+      return snacks[i].to_s
     end
     i += 1
   end
   return nil
 end
-
-find_the_cheese(["banana", "cheddar", "sock"])
 
