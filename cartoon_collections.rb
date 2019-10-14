@@ -22,8 +22,11 @@ end
 
 def long_planeteer_calls(calls)
   # Your code here
-  
-  calls.any?{|i| calls[i].length > 4}
+  call_sizes = []
+  calls.each do |size|
+    call_sizes << size.length
+  end
+  call_sizes.any?{|i| i > 4}
   
 end
 
