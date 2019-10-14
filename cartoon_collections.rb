@@ -9,8 +9,14 @@ def roll_call_dwarves(dwarves)
   
 end
 
-def summon_captain_planet()
+def summon_captain_planet(calls)
   # Your code here
+  new_array = []
+  calls.each do |word|
+    word[0] = word[0].upcase
+    new_array << word
+  end
+  new_array
 end
 
 def long_planeteer_calls()
