@@ -14,6 +14,7 @@ def summon_captain_planet(calls)
   new_array = []
   calls.each do |word|
     word[0] = word[0].upcase
+    word << "!"
     new_array << word
   end
   new_array
