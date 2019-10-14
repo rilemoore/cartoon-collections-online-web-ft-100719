@@ -23,7 +23,7 @@ end
 def long_planeteer_calls(calls)
   # Your code here
   
-  calls.any?
+  calls.any?{|calls[i]| calls[i] > 4
   
 end
 
