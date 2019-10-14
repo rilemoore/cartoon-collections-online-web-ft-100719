@@ -33,6 +33,7 @@ end
 def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  puts snacks[1]
   i = 0
   while(i < snacks.length)
     if(snacks[i] == "cheddar" || snacks[i] == "gouda" || snacks[i] == "camembert")
