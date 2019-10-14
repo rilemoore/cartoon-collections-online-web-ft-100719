@@ -36,6 +36,6 @@ def find_the_cheese(snacks)
   
   
   #snacks.include?("cheddar", "gouda", "camembert")
-  snacks.detect{"cheddar"}
+  snacks.detect{"gouda"}
   
 end
