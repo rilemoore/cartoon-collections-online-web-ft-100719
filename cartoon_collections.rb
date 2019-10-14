@@ -45,3 +45,6 @@ def find_the_cheese(snacks)
   end
   
 end
+
+find_the_cheese(["banana", "cheddar", "sock"])
+
